@@ -4,6 +4,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type Function interface {
+type GroupHandler interface {
 	Handle(r *gin.RouterGroup)
 }
